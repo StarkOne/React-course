@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// components
+import Header from './components/header'
 
 const App = () => {
-    return <div className="title">
-        <h1>hello world!</h1>
-        <p>Vlad</p>
-      </div>;
+    return <div>
+            <Header/>
+        </div>;
 }
 
 ReactDOM.render(<App/>, document.querySelector("#root"));
