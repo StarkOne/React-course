@@ -1,18 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 
-const user = {
-  name: 'Francis',
-  lastName: 'Jones',
-  age: 16
+class Header extends Component {
+  render() {
+    return (
+      <header>
+        <div>logo</div>
+        <input type="text" />
+      </header>
+    );
+  }
 }
-
-const Header = () => {
-  return (<div>
-    <div>{user.name}</div>
-    <div>{user.lastName}</div>
-    <div>{user.age}</div>
-  </div>)
-}
-
 
 export default Header;
