@@ -10,10 +10,12 @@ class App extends Component {
         news: JSON
     }
     render() {
-        console.log(this.state.news);
+        
         return <div>
             <Header/>
-            <NewList news = {this.state.news} donkey = {"my"}/>
+            <NewList news = {this.state.news} donkey = {"my"}>
+                <h3>News are:</h3>
+            </NewList>
           </div>;
     }
 }
