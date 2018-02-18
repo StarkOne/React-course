@@ -14,5 +14,7 @@ header input {
   margin: 20px 0;
 }
 .news_item {
-  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #555;
 }
